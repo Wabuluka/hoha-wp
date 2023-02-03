@@ -20,7 +20,7 @@
                 $args = array(
                     'post_type'         => 'post',
                     'post_status'       => 'publish',
-                    'category_name'     => 'program',
+                    'category_name'     => 'programs',
                     'posts_per_page'    => ''    
                 );
                 $arr_posts = new WP_Query($args);
@@ -28,8 +28,8 @@
                     while ( $arr_posts->have_posts() ) {
                         $arr_posts->the_post(); 
                         ?>
-                        <div class="col-md-4 d-flex ftco-animate">
-                            <div class="blog-entry align-self-stretch">
+                        <div class="col-md-4  ftco-animate">
+                            <div class="blog-entry ">
                                 <?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' ); ?>
                                 <a href="blog-single.html" class="block-20" style="background-image: url('<?php echo $backgroundImg[0]; ?>'); cover"></a>
                                 <div class="text p-4 d-block">

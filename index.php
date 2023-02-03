@@ -6,7 +6,7 @@
  */
 get_header( ); ?>
 
-<div class="hero-wrap" style="background-image: url('<?php echo HOHA_DIR_URI .'/src/images/bg_12.jpg'; ?>');" data-stellar-background-ratio="0.5">
+<div class="hero-wrap" style="background-image: url('<?php echo HOHA_DIR_URI .'/src/images/cover2.jpg'; ?>');" data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
@@ -20,6 +20,14 @@ get_header( ); ?>
     get_template_part( 'template/front-body/board' );
 ?>
 
+<!-- <section>
+	<div class="gfm-embed" data-url="https://www.gofundme.com/f/one-4-her-campaign-for-1m-sanitary-pads/widget/large/"></div>
+	<script defer src="https://www.gofundme.com/static/js/embed.js"></script>
+</section> -->
+
+
+
+
 <section class="ftco-section ">
       <div class="container">
       	<div class="row justify-content-center mb-5 pb-3">
@@ -28,7 +36,7 @@ get_header( ); ?>
             <p>With immense gratitude, HOHA Family would like to wholeheartedly applaud the indispensable technical and financial support provided 
                 by Individual sponsors, staff, support teams, groups, ministries, organizations and partners, in Building a 
                 Vibrant resilient and self-reliant sustainable communities throughout the years.</p>
-                <p><a href="#" class="btn btn-white px-3 py-2 mt-2">About Us</a></p>
+                <p><a href="http://hoha.org.ug/about-us/" class="btn btn-white px-3 py-2 mt-2">About Us</a></p>
           </div>
         </div>
     </div>
@@ -46,67 +54,67 @@ get_header( ); ?>
 ?>
 
 <section class="ftco-gallery">
-    	<div class="d-md-flex">
-	    	<a href="<?php echo HOHA_DIR_URI .'/src/images/bg_12.jpg'; ?>" 
-                class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"   
-                style="background-image: url(<?php echo HOHA_DIR_URI .'/src/images/bg_12.jpg'; ?>);">
-	    		<div class="icon d-flex justify-content-center align-items-center">
-	    			<span class="icon-search"></span>
-	    		</div>
-	    	</a>
-	    	<a href="<?php echo HOHA_DIR_URI .'/src/images/hohafamily.jpg'; ?>" 
-                class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" 
-                style="background-image: url(<?php echo HOHA_DIR_URI .'/src/images/hohafamily.jpg'; ?>);">
-	    		<div class="icon d-flex justify-content-center align-items-center">
-	    			<span class="icon-search"></span>
-	    		</div>
-	    	</a>
-	    	<a href="<?php echo HOHA_DIR_URI .'/src/images/hohababy.jpg'; ?>" 
-                class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" 
-                style="background-image: url(<?php echo HOHA_DIR_URI .'/src/images/hohababy.jpg'; ?>);">
-	    		<div class="icon d-flex justify-content-center align-items-center">
-	    			<span class="icon-search"></span>
-	    		</div>
-	    	</a>
-	    	<a href="<?php echo HOHA_DIR_URI .'/src/images/hohatailoring.jpg'; ?>" 
-                class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" 
-                style="background-image: url(<?php echo HOHA_DIR_URI .'/src/images/hohatailoring.jpg'; ?>);">
-	    		<div class="icon d-flex justify-content-center align-items-center">
-	    			<span class="icon-search"></span>
-	    		</div>
-	    	</a>
-    	</div>
-    	<div class="d-md-flex">
-	    	<a href="<?php echo HOHA_DIR_URI .'/src/images/sanitary.png'; ?>" 
-                class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"   
-                style="background-image: url(<?php echo HOHA_DIR_URI .'/src/images/sanitary.png'; ?>);">
-	    		<div class="icon d-flex justify-content-center align-items-center">
-	    			<span class="icon-search"></span>
-	    		</div>
-	    	</a>
-	    	<a href="<?php echo HOHA_DIR_URI .'/src/images/hohatvegetables.jpg'; ?>"    
-                class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" 
-                style="background-image: url(<?php echo HOHA_DIR_URI .'/src/images/hohavegetables.jpg'; ?>);">
-	    		<div class="icon d-flex justify-content-center align-items-center">
-	    			<span class="icon-search"></span>
-	    		</div>
-	    	</a>
-	    	<a href="<?php echo HOHA_DIR_URI .'/src/images/hohagirl.jpg'; ?>" 
-                class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" 
-                style="background-image: url(<?php echo HOHA_DIR_URI .'/src/images/hohagirl.jpg'; ?>">
-	    		<div class="icon d-flex justify-content-center align-items-center">
-	    			<span class="icon-search"></span>
-	    		</div>
-	    	</a>
-	    	<a href="<?php echo HOHA_DIR_URI .'/src/images/hohaclass.jpg'; ?>" 
-                class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" 
-                style="background-image: url(<?php echo HOHA_DIR_URI .'/src/images/hohaclass.jpg'; ?>);">
-	    		<div class="icon d-flex justify-content-center align-items-center">
-	    			<span class="icon-search"></span>
-	    		</div>
-	    	</a>
-	    </div>
-    </section>
+	<div class="d-md-flex">
+		<a href="<?php echo HOHA_DIR_URI .'/src/images/bg_12.jpg'; ?>" 
+			class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"   
+			style="background-image: url(<?php echo HOHA_DIR_URI .'/src/images/bg_12.jpg'; ?>);">
+			<div class="icon d-flex justify-content-center align-items-center">
+				<span class="icon-search"></span>
+			</div>
+		</a>
+		<a href="<?php echo HOHA_DIR_URI .'/src/images/hohafamily.jpg'; ?>" 
+			class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" 
+			style="background-image: url(<?php echo HOHA_DIR_URI .'/src/images/hohafamily.jpg'; ?>);">
+			<div class="icon d-flex justify-content-center align-items-center">
+				<span class="icon-search"></span>
+			</div>
+		</a>
+		<a href="<?php echo HOHA_DIR_URI .'/src/images/hohababy.jpg'; ?>" 
+			class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" 
+			style="background-image: url(<?php echo HOHA_DIR_URI .'/src/images/hohababy.jpg'; ?>);">
+			<div class="icon d-flex justify-content-center align-items-center">
+				<span class="icon-search"></span>
+			</div>
+		</a>
+		<a href="<?php echo HOHA_DIR_URI .'/src/images/hohatailoring.jpg'; ?>" 
+			class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" 
+			style="background-image: url(<?php echo HOHA_DIR_URI .'/src/images/hohatailoring.jpg'; ?>);">
+			<div class="icon d-flex justify-content-center align-items-center">
+				<span class="icon-search"></span>
+			</div>
+		</a>
+	</div>
+	<div class="d-md-flex">
+		<a href="<?php echo HOHA_DIR_URI .'/src/images/sanitary.png'; ?>" 
+			class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"   
+			style="background-image: url(<?php echo HOHA_DIR_URI .'/src/images/sanitary.png'; ?>);">
+			<div class="icon d-flex justify-content-center align-items-center">
+				<span class="icon-search"></span>
+			</div>
+		</a>
+		<a href="<?php echo HOHA_DIR_URI .'/src/images/hohatvegetables.jpg'; ?>"    
+			class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" 
+			style="background-image: url(<?php echo HOHA_DIR_URI .'/src/images/hohavegetables.jpg'; ?>);">
+			<div class="icon d-flex justify-content-center align-items-center">
+				<span class="icon-search"></span>
+			</div>
+		</a>
+		<a href="<?php echo HOHA_DIR_URI .'/src/images/hohagirl.jpg'; ?>" 
+			class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" 
+			style="background-image: url(<?php echo HOHA_DIR_URI .'/src/images/hohagirl.jpg'; ?>">
+			<div class="icon d-flex justify-content-center align-items-center">
+				<span class="icon-search"></span>
+			</div>
+		</a>
+		<a href="<?php echo HOHA_DIR_URI .'/src/images/hohaclass.jpg'; ?>" 
+			class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" 
+			style="background-image: url(<?php echo HOHA_DIR_URI .'/src/images/hohaclass.jpg'; ?>);">
+			<div class="icon d-flex justify-content-center align-items-center">
+				<span class="icon-search"></span>
+			</div>
+		</a>
+	</div>
+</section>
 
 
 <?php get_footer();

@@ -24,6 +24,7 @@ class HOHA_THEME{
           * Actions
           */
         add_action( 'after_setup_theme', [$this, 'setup_theme'] );
+        // add_filter('excerpt_length', [$this, 'hoha_excerpt_length'], 999);
         // add_action( 'after_setup_theme', [$this, 'hoha_cut_excerpt'] );
      }
 
@@ -52,10 +53,14 @@ class HOHA_THEME{
         }
     }
 
-    // function hoha_cut_excerpt(){
-    //     $excerpt = get_the_excerpt(); 
-    //     $excerpt = substr($excerpt, 0, 260);
-    //     $result = substr($excerpt, 0, strrpos($excerpt, ' '));
-    //     echo $result;
+    // function hoha_excerpt_length($count){
+     //    https://lindatharpink.com/
+    //     $permalink = get_permalink($post->ID);
+    //     $excerpt = get_the_content();
+    //     $excerpt = strip_tags($excerpt);
+    //     $excerpt = substr($excerpt, 50, $count);
+    //     $excerpt = substr($excerpt, 50, strripos($excerpt, " "));
+    //     $excerpt = '<p>'.$excerpt.'... <a href="'.$permalink.'">Read More</a></p>';
+    //     return $excerpt;
     // }
 }

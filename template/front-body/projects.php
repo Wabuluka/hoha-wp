@@ -12,7 +12,7 @@
             <p></p>
             </div>
         </div>
-        <div class="row d-flex">
+        <div class="row  ">
             <?php 
                 $args = array(
                     'post_type'         => 'post',
@@ -25,7 +25,7 @@
                     while ( $arr_posts->have_posts() ) {
                         $arr_posts->the_post(); 
                         ?>
-                        <div class="col-md-4 d-flex ftco-animate">
+                        <div class="col-md-4 ftco-animate">
                             <div class="blog-entry align-self-stretch">
                                 <?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' ); ?>
                                 <a href="blog-single.html" class="block-20" style="background-image: url('<?php echo $backgroundImg[0]; ?>');"></a>

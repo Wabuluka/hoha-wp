@@ -1,6 +1,6 @@
 <?php
     /**
-     * Template Name: Projects Template 
+     * Template Name: Projects
      */
 ?>
 
@@ -8,7 +8,7 @@
     <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
             <div class="col-md-10 heading-section ftco-animate text-center">
-            <h2 class="mb-4">Our Progrmas</h2>
+            <h2 class="mb-4">Completed Projects</h2>
             <!-- <p>AFRICA’S GREATEST RESOURCE IS HER WOMEN, EMPOWERED <br>
                 The harsh reality is that many women in Africa have been left to bear the brunt of war, poverty and disease. Millions of our sisters have been abandoned and robbed of all dignity. Uneducated and unemployable, they are left to suffer alone.
             </p> -->
@@ -28,8 +28,9 @@
                     while ( $arr_posts->have_posts() ) {
                         $arr_posts->the_post(); 
                         ?>
-                        <div class="col-md-4 d-flex ftco-animate">
-                            <div class="blog-entry align-self-stretch">
+                        
+                        <div class="col-md-4  ftco-animate">
+                            <div class="blog-entry ">
                                 <?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' ); ?>
                                 <a href="blog-single.html" class="block-20" style="background-image: url('<?php echo $backgroundImg[0]; ?>'); cover"></a>
                                 <div class="text p-4 d-block">

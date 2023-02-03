@@ -8,6 +8,15 @@
     <footer class="ftco-footer ftco-section img">
     	<div class="overlay"></div>
       <div class="container">
+
+        <div class="row">
+          <div class="col-md-12 text-center mb-5">
+            <img src="<?php echo HOHA_DIR_URI .'/src/images/hohalogo.jpg'; ?>" alt="">
+          
+          </div>
+        </div>
+
+
         <div class="row mb-5">
           <div class="col-md-3">
             <div class="ftco-footer-widget mb-4">
@@ -19,12 +28,12 @@
                 <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
               </ul>
             </div>
+
+            
           </div>
           <div class="col-md-4">
             <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">Recent Projects</h2>
-
-
               <?php 
                 $args = array(
                     'post_type'         => 'post',
@@ -53,12 +62,7 @@
                     } // end while
                 } // end if
             ?>
-
-              
-
-
-
-              
+          
             </div>
           </div>
           <div class="col-md-2">
@@ -76,14 +80,19 @@
             	<h2 class="ftco-heading-2">Have a Questions?</h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">Office Location</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+256 702 658174</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">jane@hoha.org.ug</span></a></li>
+                  <li><div class="gfm-embed" data-url="https://www.gofundme.com/f/one-4-her-campaign-for-1m-sanitary-pads/widget/small/"></div>
+                <script defer src="https://www.gofundme.com/static/js/embed.js"></script></li>
+	                <!-- <li><span class="icon icon-map-marker"></span><span class="text">Office Location</span></li> -->
+	                <!-- <li><a href="#"><span class="icon icon-phone"></span><span class="text">+256 702 658174</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">jane@hoha.org.ug</span></a></li> -->
 	              </ul>
+                
 	            </div>
             </div>
           </div>
         </div>
+
+
         <div class="row">
           <div class="col-md-12 text-center">
             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -94,8 +103,6 @@
       </div>
     </footer>
     
-  
-
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 

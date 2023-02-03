@@ -32,6 +32,10 @@ get_header( ); ?>
                 <h2 class="mb-3"><?php the_title(); ?></h2>
                 <?php the_content(); ?>
             </div>
+            <div class="col-md-4">
+                <div class="gfm-embed" data-url="https://www.gofundme.com/f/one-4-her-campaign-for-1m-sanitary-pads/widget/large/"></div>
+                <script defer src="https://www.gofundme.com/static/js/embed.js"></script>
+            </div>
         </div> <!-- .col-md-8 -->
     </div>
 </section>

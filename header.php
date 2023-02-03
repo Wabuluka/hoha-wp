@@ -17,6 +17,7 @@ $header_menus = wp_get_nav_menu_items($header_menu_id);
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="uganda, hands of hope, hoha, children, women, health, education, iganga, jinja, kamuli, luuka, ngo, pads, tailoring">
     <?php wp_head();?>
     <style>
         #owl-demo .item img{
@@ -66,7 +67,7 @@ $header_menus = wp_get_nav_menu_items($header_menu_id);
                 
                 } ?>
                 <li class="nav-item btn-warning">
-                  <a href="/" class="nav-link">Donate</a>
+                  <a href="https://gofund.me/a1828fd4" class="nav-link">Donate</a>
                 </li>
         </ul>
       <?php } ?>
